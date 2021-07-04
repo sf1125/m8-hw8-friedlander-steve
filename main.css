@@ -21,10 +21,47 @@
   padding-left: 0;
   background-color: #dde1e7;
 }
+
 .sub-menu li {
-  display: block;
+  display: none;
   width: 100%;
   padding: 20px;
   border: 2px solid #fff;
   box-sizing: border-box;
+}
+
+.products li {
+  display: none;
+  width: 100%;
+  padding: 20px;
+  border: 2px solid #fff;
+  box-sizing: border-box;
+}
+
+.services li {
+  display: none;
+  width: 100%;
+  padding: 20px;
+  border: 2px solid #fff;
+  box-sizing: border-box;
+}
+.company li {
+  display: none;
+  width: 100%;
+  padding: 20px;
+  border: 2px solid #fff;
+  box-sizing: border-box;
+}
+
+
+.main-menu li:hover .products li {
+  display: block;
+}
+
+.main-menu li:hover .services li {
+  display: block;
+}
+
+.main-menu li:hover .company li {
+  display: block;
 }
